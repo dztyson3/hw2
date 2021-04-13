@@ -1,0 +1,70 @@
+<html>
+<!-- This is the head element of the page -->
+<head>
+    <title>Peloton</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- This is the header text of the page -->
+    <h1 class="text-center font-bold text-4xl text-blue-800 mt-8 mb-2">Peloton</h1>
+    <!-- This is the slogan of the page -->
+    <p class="text-center text-2xl italic mb-12">
+        Join the fitness revolution
+    </p>
+
+    <div class="px-16 md:flex items-center bg-blue-100">
+        <div class = "md:w-1/6">
+        </div>
+        <div class="md:w-1/3 m-auto md:p-8">
+            <!-- This is  picture of a Peloton bike rider -->
+            <img class="rounded-xl border-solid border-4 border-gray-400" src = "HP_Product_Block_1_-_Desktop.png"
+            width = 450
+            height = 380>
+        </div>
+        <div class= "md:w-2/3 p-2 space-y-2">
+            <!-- Creating a link to our Products and Classes page -->
+            <h2 class="font-bold text-2xl">Studio quality equipment and classes.</h2>
+                <p class="ml:200">
+                    <button class="order-gray-200 font-bold text-black bg-gray-400 rounded px-6 py-2">
+                        <uli><a href = "classes.html">   Our Classes </a></li>
+                    </button>
+                    <button class="order-gray-200 font-bold text-black bg-gray-400 rounded px-6 py-2">
+                        <uli><a href = "products.html">   Our Products </a></li>
+                    </button>
+                </p>     
+        </div>
+    </div>
+    
+    <div class="mt-8">
+        <h3 class="text-3xl font-bold text-center">Join our waitlist</h3>
+​
+        <form netlify class="text-center mx-auto w-64">
+            <label class="block font-bold" for="name">What is your name?</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+
+            <label class="block mt-4 font-bold" for="favorite-color">What is your email?</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+
+            <button class="inline-block align-middle block mt-4 border-gray-400 font-bold text-black bg-blue-200 rounded px-4 py-2">Submit form!</button>
+        </form>
+    </div>
+
+<!-- Header for the section on our social media  -->
+    <div class="mt-8">
+        <h3 class="text-xl font-bold text-center">Find us on social media</h3>
+            <!-- Creating a link to our Products and Classes page -->
+            <div class="font-bold text-black bg-gray-500 py-3  text-center">
+                <button class="order-gray-200 font-bold text-black bg-blue-200 rounded px-5 py-2">
+                    <uli><a href = "https://twitter.com/onepeloton">  Twitter </a></li>
+                </button>
+                <button class="p-1/3 order-gray-200 font-bold text-black bg-blue-200 rounded px-5 py-2">
+                    <uli><a href = "https://www.instagram.com/onepeloton/"> Instagram </a></li>
+                </button>
+            </div>
+    </div>
+</body>
+</html>
